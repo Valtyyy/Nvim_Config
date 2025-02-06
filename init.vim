@@ -37,10 +37,10 @@ Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 call plug#end()
 
 lua require('snippet')
-"lua require('completion')
+lua require('completion')
 lua require('tree')
 lua require('treesitter')
-"lua require('lsp')
+lua require('lsp')
 lua require('telescope')
 
 " Plugin config
