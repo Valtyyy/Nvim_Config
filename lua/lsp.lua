@@ -4,7 +4,9 @@ require'mason-lspconfig'.setup({
         "clangd",
         "lua_ls",
         "pyright",
-        "gopls"
+        "gopls",
+        "dockerls",
+        "docker_compose_language_service"
     },
 })
 
