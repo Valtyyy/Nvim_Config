@@ -6,7 +6,11 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 echo "Installing NerdFont"
 
-curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
+curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Monaspace.tar.xz
+mkdir /usr/local/share/fonts/Monaspace/
+mv Monospace.tar.xz /usr/local/share/fonts/Monaspace/
+tar -xf /usr/local/share/fonts/Monaspace/Monospace.tar.xf
+rm /usr/local/share/fonts/Monaspace/Monospace.tar.xf
 
 echo "Install config"
 
