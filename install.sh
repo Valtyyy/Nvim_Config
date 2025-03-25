@@ -15,4 +15,4 @@ tar -xf /tmp/nerdfonts/Monaspace.tar.xz -C ~/.local/share/fonts/Monaspace
 fc-cache -fv
 
 echo "Cloning Neovim config"
-git clone "git@github.com:Valtyyy/Nvim_Config.git" ~/.config/nvim/
+git clone "https://github.com/Valtyyy/Nvim_Config.git" ~/.config/nvim/
