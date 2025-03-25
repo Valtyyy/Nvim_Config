@@ -2,7 +2,7 @@
 ## In Shell
 Install config via the installer script
 
-    sudo wget -O - https://github.com/Valtyyy/Nvim_Config/blob/main/install.h | bash
+    sudo wget -O - https://raw.githubusercontent.com/Valtyyy/Nvim_Config/refs/heads/main/install.sh | bash
 ## In Neovim
 Install the plugins
 
