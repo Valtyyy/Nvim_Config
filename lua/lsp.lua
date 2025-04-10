@@ -17,6 +17,15 @@ require'lspconfig'.clangd.setup({
   init_options = {
     clangdFileStatus = true,
   },
+  capabilities = {
+		textDocument = {
+			completion = {
+				completionItem = {
+					snippetSupport = false,
+				},
+			},
+		},
+    },
 })
 
 -- lua lsp
